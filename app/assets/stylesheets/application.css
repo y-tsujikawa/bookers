@@ -1,3 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  margin: 35px;
+}
+
+p {
+  line-height: 35px;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+label {
+  display: block;
+}
+
+.link {
+  display: block;
+}
+
+.button {
+  display: block;
+}
+
+.error_message {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error_message h2 {
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: white;
+}
+
+.error_message ul {
+  margin: 20px;
+}
+
 .flash-message.notice {
   color: green;
 }
